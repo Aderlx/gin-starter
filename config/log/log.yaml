@@ -1,0 +1,12 @@
+
+logFilePath: "./log/logger.log"
+# 每个日志文件保存的最大尺寸 单位：M
+maxSize: 128
+# 日志文件最多保存多少个备份
+maxBackups: 30
+# 文件最多保存多少天
+maxAge: 0
+# 是否压缩
+compress: true
+# 格式 json
+formatJson: false
